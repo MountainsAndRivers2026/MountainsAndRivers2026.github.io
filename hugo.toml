@@ -1,4 +1,20 @@
-baseURL = 'https://example.org/'
+
+# ==========================================
+# 山浩网站正式网址（目前部署在 GitHub Pages）
+# ==========================================
+
+baseURL = 'https://mountainsandrivers2026.github.io/'
 locale = 'en-us'
 title = "Mountains and Rivers"
 theme = "vortisil"
+
+
+# ==========================================
+# 2026-08-14：GitHub Actions 官方推荐配置。
+# 把 Hugo 生成图片的临时缓存放到 GitHub 的缓存目录，
+# 网站内容不会改变，只提高自动部署速度+减少重复生成。
+# ==========================================
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
