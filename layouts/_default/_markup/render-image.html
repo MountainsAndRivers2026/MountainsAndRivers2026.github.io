@@ -1,0 +1,14 @@
+<!-- 这是一个 comment，不会显示在网页上 -->
+<!-- 08/13/2026：coded by GPT and reviewed by CLAUDE and me->
+
+
+{{- $src := .Destination -}}
+{{- $resource := .Page.Resources.GetMatch $src -}}
+
+{{- if $resource -}}
+  <!-- FOUND RESOURCE: {{ $src }} -->
+  <img src="{{ $resource.RelPermalink }}" alt="{{ .Text }}">
+{{- else -}}
+  <!-- RESOURCE NOT FOUND: {{ $src }} -->
+  <img src="{{ $src | safeURL }}" alt="{{ .Text }}">
+{{- end -}}

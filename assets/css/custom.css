@@ -1,0 +1,28 @@
+
+/*这是单行注释，这里写什么都不会影响 CSS */
+
+/*
+这是多行注释
+这里写什么都不会影响 CSS
+*/
+
+
+/* 去掉正文段落首行缩进 */
+.post-content p {
+  text-indent: 0 !important;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+/* 三级标题 */
+h3 {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.post-content p {
+  margin-bottom: 0.6rem;
+}
