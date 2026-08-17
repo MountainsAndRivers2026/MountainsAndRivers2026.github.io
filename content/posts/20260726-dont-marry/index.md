@@ -2,6 +2,8 @@
 date = '2026-07-27T14:58:11-07:00'
 draft = false
 title = '2026-07-26 「结婚不要找父母离过婚的人」'
+
+categories = ['life']
 summary = "受过伤，并不自动决定人以后会变成什么样。"
 
 [thumbnail]

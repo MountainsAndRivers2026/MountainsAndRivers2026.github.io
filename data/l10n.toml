@@ -1,0 +1,27 @@
+# ==========================================
+# 山浩网站 Mountains and Rivers
+# 界面文字（UI）
+# 最后更新：2026-08-16
+# ==========================================
+
+home = "首页"
+about = "关于"
+archives = "归档"
+search = "搜索"
+
+posts = "最近更新"
+topics = "按主题浏览"
+
+ai = "🌏 向世界学习「AI」"
+life = "🌱 向自己学习「随笔」"
+reading = "📚 向别人学习「阅读」"
+
+by = "作者"
+posted_on = "发布于"
+last_modified = "最后更新"
+
+pagenotfound_title = "页面不存在"
+pagenotfound_desc = "抱歉，没有找到你访问的页面。"
+return_home = "返回首页"
+
+all_rights_reserved = "版权所有"

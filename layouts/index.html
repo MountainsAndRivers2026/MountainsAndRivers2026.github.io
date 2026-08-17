@@ -83,6 +83,15 @@
 
 </section>
 
+<!-- ========================================= -->
+<!-- 2026-08-16
+     主题原有的 Works（作品集）模块。
+     Mountains and Rivers 目前以博客为主，
+     暂时不用作品集，因此先保留代码并注释。
+     未来如果增加 AI 项目，再恢复使用。
+-->
+<!-- ========================================= -->
+{{/*
 <section class="works" id="works">
 
     <div class="section-title">{{ index $.Site.Data.l10n "works" }}</div>
@@ -99,5 +108,40 @@
     </div>
 
 </section>
+*/}}
+
+<!-- ========================================= -->
+<!-- 2026-08-14
+     首页 Topics（主题浏览）。
+     目前先手动维护三个主题：
+     AI、Life、Reading。
+     以后再改成自动读取 Hugo Categories。
+-->
+<!-- ========================================= -->
+
+<section class="topics" id="topics">
+
+    <div class="section-title">{{ index $.Site.Data.l10n "topics" }}</div>
+    
+
+    <div>
+        <a href="/categories/ai/">
+            {{ index $.Site.Data.l10n "ai" }}
+        </a>
+    </div>
+
+    <div>
+        <a href="/categories/life/">
+            {{ index $.Site.Data.l10n "life" }}
+        </a>
+    </div>
+
+    <div>
+        <a href="/categories/reading/">
+            {{ index $.Site.Data.l10n "reading" }}
+        </a>
+    </div>
+
+    </section>
 
 {{ end }}
