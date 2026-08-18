@@ -1,7 +1,7 @@
 +++
 date = '2026-08-11T23:36:48-04:00'
 draft = false
-title = '20260802 「Google Vibe Coding 5-Day」 DAY1笔记'
+title = '2026-08-02 「Google Vibe Coding 5-Day」 DAY1笔记'
 
 categories = ['ai']
 +++
